@@ -7,15 +7,15 @@ The project aims to explore customer feedback, identify patterns in review score
 
 ## 🔗 Dataset Source
 Dataset used: [Flipkart Laptop Reviews on Kaggle](https://www.kaggle.com/datasets/gitadityamaddali/flipkart-laptop-reviews)
-This dataset contains 24,000 rows of laptop product reviews scraped from Flipkart, covering around 600 laptop models. The data provides insights into customer opinions and ratings making it valuable for sentiment analysis, market research, and recommendation systems.
-# Dataset Features
-product_name – Name and specifications of the laptop.
-overall_rating – Average rating of the product.
-no_ratings – Total number of ratings received.
-no_reviews – Total number of reviews written.
-rating – Individual rating given by the user (out of 5).
-title – Short summary of the review.
-review – Full text of the customer’s review.
+This dataset contains 24,000 rows of laptop product reviews scraped from Flipkart, covering around 600 laptop models. The data provides insights into customer opinions and ratings, making it valuable for sentiment analysis, market research, and recommendation systems.
+Dataset Features
+- product_name – Name and specifications of the laptop.
+- overall_rating – Average rating of the product.
+- no_ratings – Total number of ratings received.
+- no_reviews – Total number of reviews written.
+- rating – Individual rating given by the user (out of 5).
+- title – Short summary of the review.
+- review – Full text of the customer’s review.
 
 ## 📊 Key Components
 - Data cleaning and preparation
