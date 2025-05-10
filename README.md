@@ -1,29 +1,44 @@
-# Flipkart Laptop Reviews - Data Analysis Project
+# Flipkart Laptop Reviews – Data Analysis Project
 
-## 📌 Project Summary
-This repository contains a data analysis project based on a dataset of laptop reviews from Flipkart. The analysis is conducted using Python in a Jupyter Notebook as part of an academic assignment for the Decision Support Systems (DSS) module at IDEA College, Malta.
+## 📌 Project Overview
+This repository presents a data analysis project based on a dataset of laptop reviews from Flipkart. It is developed as part of **Task 1** for the **Decision Support Systems (DSS)** module in the Postgraduate Diploma in Artificial Intelligence at IDEA College, Mosta, Malta.
 
-The project aims to explore customer feedback, identify patterns in review scores, and examine which features or aspects contribute to positive or negative reviews. The insights are connected to decision-making processes relevant to businesses and decision support systems.
+The goal of the project is to explore customer feedback and uncover patterns that reveal what factors influence positive or negative laptop reviews. The analysis uses visual techniques and is contextualised within the scope of decision support systems in real-world business applications.
 
 ## 🔗 Dataset Source
-Dataset used: [Flipkart Laptop Reviews on Kaggle](https://www.kaggle.com/datasets/gitadityamaddali/flipkart-laptop-reviews)
-This dataset contains 24,000 rows of laptop product reviews scraped from Flipkart, covering around 600 laptop models. The data provides insights into customer opinions and ratings, making it valuable for sentiment analysis, market research, and recommendation systems.
+**Dataset:** [Flipkart Laptop Reviews – Kaggle](https://www.kaggle.com/datasets/gitadityamaddali/flipkart-laptop-reviews)  
+The dataset contains over 24,000 customer reviews covering approximately 600 laptop models. Each entry includes ratings, review titles, and full review content.
 
-Dataset Features
-- product_name – Name and specifications of the laptop.
-- overall_rating – Average rating of the product.
-- no_ratings – Total number of ratings received.
-- no_reviews – Total number of reviews written.
-- rating – Individual rating given by the user (out of 5).
-- title – Short summary of the review.
-- review – Full text of the customer’s review.
+**Features:**
+- `product_name` – Laptop model and specs  
+- `overall_rating` – Average rating per product  
+- `no_ratings` – Total number of user ratings  
+- `no_reviews` – Total number of user reviews  
+- `rating` – Individual review score  
+- `title` – Short review title  
+- `review` – Full written review
 
 ## 📊 Key Components
-- Data cleaning and preparation
-- Exploratory data analysis (EDA)
-- Visual representation of trends and insights
-- Identification of key factors influencing review scores
-- Relevance to DSS concepts in real-world applications
+- Data loading and UTF-8 encoding validation  
+- Data cleaning (duplicate removal, numeric conversions)  
+- Exploratory data analysis (EDA) using Python  
+- Visualizations with `matplotlib` and `seaborn`  
+- Charts showing:
+  - Rating distribution (with percentage labels)
+  - Most reviewed laptops
+  - Top-rated laptops
+  - Review count vs. rating (scatter)
+  - Review length vs. rating (box plot)
+- Theoretical discussion connecting results to DSS concepts
 
-## 📚 Academic Context
-This project is submitted in fulfilment of requirements for the Postgraduate Diploma in Artificial Intelligence at IDEA College, Malta. It is intended for educational purposes only.
+- The findings are tied to the application of decision support systems in business environments and demonstrate how data analysis supports informed decision-making.
+
+## 📁 Project Structure
+- `Flipkart_Laptop_Review_EDA.ipynb` – Main Jupyter notebook  
+- `laptops_dataset_final_600.csv` - The data set
+- `Visual Analysis/` – Folder containing all saved visual outputs  
+- `reference.md` – Harvard-style citation list of all libraries, tools, and academic references  
+- `requirements.txt` – Python dependencies used in this notebook
+
+---
+
