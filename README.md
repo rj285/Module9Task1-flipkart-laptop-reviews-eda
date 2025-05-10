@@ -22,19 +22,19 @@ All analysis was conducted in a Jupyter Notebook using Python, and the final res
 Over 24,000 reviews across nearly 600 laptop models, including:
     🧾 Columns:
 
-        product_name → Laptop model and specifications
+    product_name → Laptop model and specifications
 
-        overall_rating → Average product rating
+    overall_rating → Average product rating
 
-        no_ratings → Total user ratings
+    no_ratings → Total user ratings
 
-        no_reviews → Total written reviews
+    no_reviews → Total written reviews
 
-        rating → Individual user score
+    rating → Individual user score
 
-        title → Short review title
+    title → Short review title
 
-        review → Full review text
+    review → Full review text
 
 ---
 
@@ -55,11 +55,11 @@ Over 24,000 reviews across nearly 600 laptop models, including:
 ---
 
 ## 🗂 Project Structure
-📁 Flipkart_Laptop_Review_EDA.ipynb → Main analysis notebook
-📁 laptops_dataset_final_600.csv → Review dataset
-📁 Visual Analysis/ → Exported visual charts (PNG)
-📁 reference.txt → Harvard-style references
-📁 requirements.txt → Python libraries used
+- 📁 Flipkart_Laptop_Review_EDA.ipynb → Main analysis notebook
+- 📁 laptops_dataset_final_600.csv → Review dataset
+- 📁 Visual Analysis/ → Exported visual charts (PNG)
+- 📁 reference.txt → Harvard-style references
+- 📁 requirements.txt → Python libraries used
 
 ---
 
