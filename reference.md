@@ -2,7 +2,7 @@
 Maddali, G.A., 2024. Flipkart Laptop Reviews Dataset. Kaggle. Available at: https://www.kaggle.com/datasets/gitadityamaddali/flipkart-laptop-reviews
 
 ## Recording Tool
-OBS Project, 2024. OBS Studio – Open Broadcaster Software. Available at: https://obsproject.com/
+OBS Project, 2024. OBS Studio – Open Broadcaster Software. Available at: https://obsproject.com/ 
 
 ## Academic and Theoretical Sources
 Schwartz, D., 2015. Decision Support Systems. Clanrye International.
